@@ -1,12 +1,12 @@
 pipeline{
     agent any
     stages{
-       stage(1){
+       stage('1'){
            steps{
               echo'hero'
           }
        }
-       stage(2){
+       stage('2'){
            steps{
               echo'amit'
            }
